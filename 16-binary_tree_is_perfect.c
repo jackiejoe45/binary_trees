@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_perfect - checks if a binary tree is perfect
- * @tree: a pointer to the root node of the tree to check
+ * binarperfect - checks if a binary tree is perfect
+ * @tree: a pointer tohe root node of the tree to check
  *
  * Return: 1 if the tree is perfect
  *         0 if the tree is not perfect
@@ -27,7 +27,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	return (power - 1 == nodes);
 }
 /**
- * _pow_recursion - returns the value of x raised to the power of y
+ * _pon - returns the value of x raised to the power of y
  * @x: the value to exponentiate
  * @y: the power to raise x to
  * Return: x to the power of y, or -1 if y is negative
